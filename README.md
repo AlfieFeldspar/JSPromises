@@ -7,4 +7,4 @@ them in.
 
 'catchAsync' - checks inventory for shop items (sunglasses, pants, bags); error handling using catch if supply is not adequate.
 
-'promiseAllConcurr' - checks inventory using promise.all so inventory for each is checked concurrently. When they all resolve, response is delivered (or error caught using catch).
+'promiseAllConcurr' - checks inventory using promise.all so inventory for each (sunglasses, pants, bags) is checked concurrently. When they all resolve, response is delivered.
